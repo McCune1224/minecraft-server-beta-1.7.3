@@ -10,6 +10,7 @@ RUN echo "eula=ture" > eula.txt
 
 RUN mkdir world
 
+VOLUME /app/world
 
 EXPOSE 25565
 
